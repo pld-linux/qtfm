@@ -4,8 +4,9 @@ Name:		qtfm
 Version:	5.0
 Release:	1
 License:	GPL
-URL:		http://www.qtfm.org
-Source0:	%{name}-%{version}.tar.gz
+URL:		http://www.qtfm.org/
+Source0:	http://www.qtfm.org/%{name}-%{version}.tar.gz
+# Source0-md5:	ad8e6d2d1533b2b1327cda557251a35d
 Group:		X11/Applications
 BuildRequires:	QtCore-devel
 BuildRequires:	QtDBus-devel
