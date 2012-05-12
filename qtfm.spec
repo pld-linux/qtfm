@@ -1,12 +1,12 @@
 Summary:	Qt File Manager
 Summary(pl.UTF-8):	Menedzer plików Qt
 Name:		qtfm
-Version:	5.0
+Version:	5.4
 Release:	1
 License:	GPL
 URL:		http://www.qtfm.org/
 Source0:	http://www.qtfm.org/%{name}-%{version}.tar.gz
-# Source0-md5:	ad8e6d2d1533b2b1327cda557251a35d
+# Source0-md5:	f3ec357ec11b1dbc67b942580ae14dd3
 Group:		X11/Applications
 BuildRequires:	QtCore-devel
 BuildRequires:	QtGui-devel
@@ -49,3 +49,13 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/%{name}
 %{_desktopdir}/%{name}*.desktop
 %{_pixmapsdir}/%{name}.png
+%lang(da) %{_datadir}/qtfm/qtfm_da.qm
+%lang(de) %{_datadir}/qtfm/qtfm_de.qm
+%lang(es) %{_datadir}/qtfm/qtfm_es.qm
+%lang(fr) %{_datadir}/qtfm/qtfm_fr.qm
+%lang(it) %{_datadir}/qtfm/qtfm_it.qm
+%lang(pl) %{_datadir}/qtfm/qtfm_pl.qm
+%lang(ru) %{_datadir}/qtfm/qtfm_ru.qm
+%lang(sr) %{_datadir}/qtfm/qtfm_sr.qm
+%lang(zh) %{_datadir}/qtfm/qtfm_zh.qm
+%lang(zh_TH) %{_datadir}/qtfm/qtfm_zh_TW.qm
