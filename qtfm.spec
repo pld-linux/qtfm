@@ -1,12 +1,12 @@
 Summary:	Qt File Manager
 Summary(pl.UTF-8):	Menedzer plików Qt
 Name:		qtfm
-Version:	5.4
-Release:	2
+Version:	5.5
+Release:	1
 License:	GPL
 URL:		http://www.qtfm.org/
 Source0:	http://www.qtfm.org/%{name}-%{version}.tar.gz
-# Source0-md5:	f3ec357ec11b1dbc67b942580ae14dd3
+# Source0-md5:	cc1d930503bf0dedc824d6f2abdda719
 Group:		X11/Applications
 BuildRequires:	QtCore-devel
 BuildRequires:	QtGui-devel
